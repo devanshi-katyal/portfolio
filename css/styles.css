@@ -1,26 +1,25 @@
 
 .skew-cc{
-  /* width:100%; */
+  width:100%;
   height:100px;
 margin-right: -1px;
-  left:0px;
+margin-left: -1px;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background: linear-gradient(to right bottom, #4e54c8  49%,  white  50%),    linear-gradient(-50deg, white 16px, #000 0);
 }
 
 .skew-c{
-  /* width:100%; */
+  width:100%;
   height:100px;
 margin-right: -1px;
-  left:0px;
+margin-left: -1px;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background: linear-gradient(to left bottom,#4e54c8  49%, white 50%);
 }
 .skew-cw{
-  /* width:100%; */
+   width:100%;
   height:100px;
-
-  left:0px;
+  margin-left: -1px;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background: linear-gradient(to left bottom, white 49%,  #4e54c8 50%);
 }
@@ -32,136 +31,6 @@ margin-right: -1px;
   padding:10%;
 color:white;
 
-}
-@media (max-width: 650px) {
-  .extra_content {
-    display: none;
-  }
-  #read_more{
-    display: block;
-  }#read_more_lic {
-    display: block;
-  }
-  .skew-cc .navbar .area{
-    width:100%;
-
-
-  }
-  .personalh{
-    font-size:5vw;
-  }
-}
-
-.read_more  {
-  display: none;
-}
-.viewmore{
-  text-decoration: underline;
-    font-size: 20px;
-}
-.show {
-   display: block!important;
-}
-#about{
-  padding:5% 10%;
-color:black;
-margin-top: 20px;
-
-}
-#about h1{
-  font-family: 'Roboto', sans-serif;
-  font-size:50px;
-  padding:3%;
-}
-.aboutpara {
-font-family: 'Slabo 27px', serif;
-  font-size:30px;
-}
-.skills{
-  padding:3%;
-color:white;
-text-align: center;
-background-color:#4e54c8;
-}
-.skills h1{
-  font-family: 'Roboto', sans-serif;
-  font-size:50px;
-  padding:3%;
-}
-.logo{
-  height:100px;
-  width:100px;
-  margin:5%;
-}
-
-#certi{
-  padding:5%;
-  text-align: center;
-
-}
-#certi h1{
-  font-family: 'Roboto', sans-serif;
-  font-size:50px;
-  padding:3%;
-}
-#certi .card{
-
-  color:black;
-  margin:20px;
-  height:220px;
-  box-shadow: 8px 3px #4e54c8;
-}
-/* my projects */
-#projects{
-  text-align:center;
-  padding: 5% 7%;
-  background-color: #4e54c8;
-  color:white;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
-  font-family: 'Slabo 27px', serif;
-}
-#projects h1{
-  font-family: 'Roboto', sans-serif;
-  font-size:50px;
-}
-/* 100 days */
-#personal{
-  text-align:center;
-    font-family: 'Slabo 27px', serif;
-    font-size: 40px;
-}
-.personalh1{
-  font-family: 'Roboto', sans-serif;
-  font-size:70px;
-
-}
-#personal h3{
-  text-shadow: 2px 2px #8f94fb;
-  padding:3%;
-}
-.twitter-tweet{
-margin:10px;
-
-}
-/* contact */
-.contact
-{
-    text-align:center;
-    padding:10%;
-background-color:#4e54c8;
-color:white;
-}
-.contact a{
-    color:white;
-}
-
-
-footer{
-background-color:#4e54c8;
-  text-align: center;
-  height:50px;
-  color:black;
-  font-size:1.2em;
 }
 /* Background */
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
@@ -334,4 +203,147 @@ margin-right: -1px;
                 border-radius: 1;
     }
 
+}
+/* about part */
+#about{
+  padding:5% 10%;
+color:black;
+margin-top: 20px;
+
+}
+#about h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:50px;
+  padding:3%;
+}
+.aboutpara {
+font-family: 'Slabo 27px', serif;
+  font-size:30px;
+}
+/* skills section */
+.skills{
+  padding:3%;
+color:white;
+text-align: center;
+background-color:#4e54c8;
+}
+.skills h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:50px;
+  padding:3%;
+}
+.logo{
+  height:100px;
+  width:100px;
+  margin:5%;
+}
+/* toggles */
+
+.read_more  {
+  display: none;
+}
+.read_more_certi  {
+  display: none;
+}
+.viewmore{
+  text-decoration: underline;
+    font-size: 20px;
+}
+.show {
+   display: block!important;
+}
+.showo {
+   display: block!important;
+}
+/* certifications */
+#certi{
+  padding:5%;
+  text-align: center;
+
+}
+#certi h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:50px;
+  padding:3%;
+}
+#certi .card{
+
+  color:black;
+  margin:20px;
+  height:220px;
+  box-shadow: 8px 3px #4e54c8;
+}
+/* my projects */
+#projects{
+  text-align:center;
+  padding: 5% 7%;
+  background-color: #4e54c8;
+  color:white;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  font-family: 'Slabo 27px', serif;
+}
+#projects h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:50px;
+}
+/* 100 days */
+#personal{
+  text-align:center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+}
+.personalh1{
+  font-family: 'Roboto', sans-serif;
+  font-size:70px;
+
+}
+#personal h3{
+  text-shadow: 2px 2px #8f94fb;
+  padding:3%;
+}
+.twitter-tweet{
+margin:10px;
+
+}
+/* contact */
+.contact
+{
+    text-align:center;
+    padding:10%;
+background-color:#4e54c8;
+color:white;
+}
+.contact a{
+    color:white;
+}
+
+
+footer{
+background-color:#4e54c8;
+  text-align: center;
+  height:50px;
+  color:black;
+  font-size:1.2em;
+}
+/* screen change sizes */
+@media (max-width: 650px) {
+  .extra_content {
+    display: none;
+  }
+  .extra_content_certi {
+    display: none;
+  }
+  #read_more{
+    display: block;
+  }
+  #read_more_certi{
+    display: block;
+    color:black;
+  }
+  .skew-cc .navbar .area{
+    width:100%;
+  }
+  .personalh{
+    font-size:5vw;
+  }
 }
